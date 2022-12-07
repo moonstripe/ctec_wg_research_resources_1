@@ -2,7 +2,7 @@
 
 ![Middlebury Logo](https://avatars.githubusercontent.com/u/65674242?s=200&v=4)
 
-*This project was conducted by a team of researchers working at the Center on [Terrorism, Extremism, and Counter Terrorism](https://www.middlebury.edu/institute/tags/ctec) at the [Middlebury Institute of International Studies at Monterey](https://www.middlebury.edu/institute/)*
+*This project was conducted by a team of researchers working at the Center on [Terrorism, Extremism, and Counter Terrorism](https://www.middlebury.edu/institute/tags/ctec) at the [Middlebury Institute of International Studies at Monterey](https://www.middlebury.edu/institute/).*
 
 ## Introduction
 These resources were developed in order to perform research into the Wagner Group in Russia. They serve as a means of replicating the data found in the corresponding paper.

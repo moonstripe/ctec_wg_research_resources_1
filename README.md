@@ -33,7 +33,7 @@ All important Python scripts are included in `src/`.
 
 ## Usage
 
-In order to replicate the results in the paper, you will need to install all necessary dependencies. These dependencies have been helpfully summarized in `requirements.txt`. (The following instructions assume you've initialized a database to store all of the content. Official instructions on using PostgreSQL can be found [here](https://www.postgresql.org/docs/current/tutorial.html).)
+In order to replicate the results in the paper, you will need to install all necessary dependencies. These dependencies have been helpfully summarized in `requirements.txt`. (The following instructions assume you've initialized a PostgreSQL database to store all of the content. Official instructions on using PostgreSQL can be found [here](https://www.postgresql.org/docs/current/tutorial.html).)
 
 <br/>
 
@@ -72,3 +72,7 @@ $ echo "DB_NAME={your database name}" >> .env
 $ echo "DB_USER={your database username}" >> .env
 $ echo "DB_PASS={your database password}" >> .env
 ```
+
+6. To pull all post from a group, edit the `main.py` script under the `if __name__ == "__main__":` guard, replacing the value with the name of the VK group you're interested in. The script will pull a lot of data, and then apply an intensive sentiment analysis model to it. Make sure your computer can handle such operations.
+
+7. Pull information from the database using SQL commands or psql. 

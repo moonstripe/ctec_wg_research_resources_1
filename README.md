@@ -26,7 +26,7 @@ All important Python scripts are included in `src/`.
 │  ├─ groups.py <- storing information in groups table
 │  ├─ main.py <- main controller
 │  ├─ posts.py <- controller for navigating VK API related to posts and comments
-│  ├─ sentiment_analyzer.py <- controller for sentiment analysis model. 
+│  ├─ sentiment_analyzer.py <- controller for sentiment analysis model
 │  ├─ text_frequency.py <- plotting Graph 2
 ...
 ```

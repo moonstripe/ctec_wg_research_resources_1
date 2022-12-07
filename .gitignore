@@ -1,0 +1,14 @@
+.DS_Store
+
+.env
+**/.env
+
+logs/**
+
+nohup.out
+
+venv/**
+
+src/__pycache__/**
+
+images/**

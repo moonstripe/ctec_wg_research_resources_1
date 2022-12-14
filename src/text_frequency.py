@@ -205,6 +205,8 @@ class TextFrequency:
         # top n words
         top_n = 5
 
+        marker_arr = ['o', 'p', 'P', '*', 'h']
+
         # init fig
         plt.clf()
         fig, axs = plt.subplots(3, 1, constrained_layout=True)
@@ -238,12 +240,12 @@ class TextFrequency:
                     self.dict_of_rel_freqs_per_word[word].append(0)
 
         axs[0].set_title('Before')
-        for i in list(self.dict_of_rel_freqs_per_word.keys()):
+        for index, i in enumerate(list(self.dict_of_rel_freqs_per_word.keys())):
             print(f'word: {i} \nlength: {len(self.dict_of_rel_freqs_per_word[i])}')
             print(f'length of time_values: {len(self.pre_dates)}')
             print(f'validation = {len(self.pre_dates) == len(self.dict_of_rel_freqs_per_word[i])}')
 
-            axs[0].plot(self.pre_dates, self.dict_of_rel_freqs_per_word[i], label=i)
+            axs[0].plot(self.pre_dates, self.dict_of_rel_freqs_per_word[i], label=i, marker=marker_arr[index])
 
         axs[0].legend(loc="lower left", ncol=5)
         axs[0].set_xlabel('Week')
@@ -276,12 +278,12 @@ class TextFrequency:
 
         # test
         axs[1].set_title('Between')
-        for i in list(self.dict_of_rel_freqs_per_word.keys()):
+        for index, i in enumerate(list(self.dict_of_rel_freqs_per_word.keys())):
             print(f'word: {i} \nlength: {len(self.dict_of_rel_freqs_per_word[i])}')
             print(f'length of time_values: {len(self.during_dates)}')
             print(f'validation = {len(self.during_dates) == len(self.dict_of_rel_freqs_per_word[i])}')
 
-            axs[1].plot(self.during_dates, self.dict_of_rel_freqs_per_word[i], label=i)
+            axs[1].plot(self.during_dates, self.dict_of_rel_freqs_per_word[i], label=i, marker=marker_arr[index])
         
         axs[1].legend(loc="lower left", ncol=5)
         axs[1].set_xlabel('Week')
@@ -314,12 +316,12 @@ class TextFrequency:
 
         # init graph
         axs[2].set_title('After')
-        for i in list(self.dict_of_rel_freqs_per_word.keys()):
+        for index, i in enumerate(list(self.dict_of_rel_freqs_per_word.keys())):
             # test
             print(f'word: {i} \nlength: {len(self.dict_of_rel_freqs_per_word[i])}')
             print(f'length of time_values: {len(self.post_dates)}')
             print(f'validation = {len(self.post_dates) == len(self.dict_of_rel_freqs_per_word[i])}')
-            axs[2].plot(self.post_dates, self.dict_of_rel_freqs_per_word[i], label=i)
+            axs[2].plot(self.post_dates, self.dict_of_rel_freqs_per_word[i], label=i, marker=marker_arr[index])
         
         axs[2].legend(loc="lower left", ncol=5)
         axs[2].set_xlabel('Week')

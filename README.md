@@ -12,6 +12,7 @@ These resources were developed in order to perform research into the Wagner Grou
   - [Introduction](#introduction)
     - [Table of Contents](#table-of-contents)
   - [Guide to Included Scripts](#guide-to-included-scripts)
+  - [Guide to Included Images](#guide-to-included-images)
   - [Usage](#usage)
 
 ## Guide to Included Scripts
@@ -30,6 +31,21 @@ All important Python scripts are included in `src/`.
 │  ├─ text_frequency.py <- plotting Graph 2
 ...
 ```
+
+## Guide to Included Images
+
+As part of our exploratory analysis of VK communities related to Wagner, we recorded some screenshots, as well as a link to the context. 
+- **1.png:** [Comment about moderating the group because there are too many Nazies among members](https://vk.com/wall-196348570_94318?reply=94401)
+- **2.png:** [Mother who is proud of her deceased son who fought for Wagner](https://vk.com/wall-160233565_172542?reply=172914&thread=172858)
+- **3.png:** [Сима-ленд - Sima-Land Russian online retail shop, allegedly related to Wagner. Post is about Wagner-support flash mob in the company’s headquarters](https://vk.com/wall-160233565_172542) 
+- **4.png:** [Every country has its own values meme](https://vk.com/wall-160233565_172542?reply=172775&thread=172559)
+- **5.png:** [Вы лучшие - you’re the best](https://vk.com/wall-196348570_138906?reply=138920)
+- **6.png:** [Красавцы - literally handsome, meaning “well done,” a poem to Wagner](https://vk.com/wall-196348570_138906?reply=138977)
+- **7.png:** [Cat in the barracks - positive image creation](https://vk.com/wall-196348570_137730)
+- **8.png:** [Another Cat](https://vk.com/wall-196348570_136890)
+- **9.png:** [Wagner celebrates the end of the operation “Barkhane” in Mali](https://vk.com/wall-196348570_107266)
+- **10.png:** [Wagner statistics: 2000+ photos with saved children, 500 rescued animals, prisoner amnesty](https://vk.com/wall-196348570_107080)
+- **11.png:** [ЗП - paycheck - Complaint about not being paid](https://vk.com/wall-188474281_159535?reply=159952)
 
 ## Usage
 
